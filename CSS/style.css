@@ -1,14 +1,27 @@
 /* Header begins */
 
+.wholeNav {
+    background-color: #262336 ;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    border-bottom: 1px solid #e5e3e3;
+}
+
 .flexNav {
-    margin-bottom: 22px
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 20%;
 }
 
 .airLogo {
     background-color: #6f6c88;
     color: #e5e5e4;
-    width: 55px;
-    height: 55px;
     margin-left: 30px;
     margin-top: 10px;
     padding: 2px;
@@ -21,28 +34,24 @@
 
 .airText {
     color: #cfced4;
-    font-size: xx-large;
+    font-size: x-large;
     width: 130px;
+    margin-left: 18px;
+    margin-top: 8px;
 }
 
-.airTwo p {
+.airTwo {
     color: #9996a6;
     margin: 0px;
     width: 130px;
     font-size: large;
 }
 
-.wholeNav {
-    background-color: #262336 ;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    width: 100%;
-}
-
 .mainOrder {
     list-style: none;
+    margin-left: 50%;
+    margin-bottom: 40px;
+    margin-top: -40px;
 }
 
 .mainLinks {
@@ -51,15 +60,15 @@
 
 .mainLinks a {
     text-decoration: none;
-    padding: 10px;
+    padding: 12px;
     padding-left: 15px;
     padding-right: 15px;
     color: #68647d;
     border-radius: 6px;
 
     &:hover {
-        background-color: #ff8901;
-        color: #0b0b31;
+        background-color: #0e0d13c1;
+        color: wheat;
     }
 }
 
@@ -68,6 +77,135 @@
 
 /* being main */
 
+/* Customer Support Section */
+
 .mainTitle {
     background-color: #262336;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: 128px;
+}
+
+.headerInfo {
+    text-align: center;
+}
+
+.headerInfo h1 {
+    font-size: xx-large;
+    margin: 0;
+    color: white;
+}
+
+.headerOne {
+    margin: 0;
+    margin-top: 30px;
+}
+
+.headerTwo {
+    margin: 0;
+    margin-top: 0;
+}
+
+.headerInfo p {
+    margin-left: 30%;
+    width: 510px;
+}
+
+.mainOne {
+    color: white;
+    background-color: grey;
+    margin-bottom: 40px;
+}
+
+/* end Customer Support */
+
+
+
+.options {
+    background-color: #f29b66;
+    position: absolute;
+    top: 416px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+}  
+
+/* Control Section */
+
+.circleOne {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #808080;
+    margin-top: 4px;
+    margin-left: 38%;
+}
+
+.title {
+    color: white;
+    margin: 0;
+    font-size: x-large;
+}
+
+.optionOne {
+    margin: 0;
+    color: #68647d;
+}
+
+.optionTwo {
+color: black;
+margin-left: 21px;
+    margin-right: 21px;
+}
+
+.circleTwo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #808080;
+    margin-top: 4px;
+    margin-left: 36%;
+}
+
+.circleThree {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #808080;
+    margin-top: 4px;
+    margin-left: 37%;
+}
+
+.circleFour {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #808080;
+    margin-top: 4px;
+    margin-left: 35%;
+}
+
+/* pricing */
+
+.pricingTable {
+    position: absolute;
+    top: 670px;
+}
+
+.tableHead {
+    background-color: #6f6c89;
+}
+
+.tableColor {
+    background-color: #f5f0f0;
 }
