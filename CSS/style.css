@@ -168,6 +168,8 @@ margin-left: 21px;
     margin-right: 21px;
 }
 
+
+/* domain section */
 .circleTwo {
     width: 80px;
     height: 80px;
@@ -177,6 +179,8 @@ margin-left: 21px;
     margin-left: 36%;
 }
 
+
+/* FTP Service section */
 .circleThree {
     width: 80px;
     height: 80px;
@@ -186,6 +190,8 @@ margin-left: 21px;
     margin-left: 37%;
 }
 
+
+/* Direct Section  */
 .circleFour {
     width: 80px;
     height: 80px;
@@ -195,17 +201,81 @@ margin-left: 21px;
     margin-left: 35%;
 }
 
+
+
 /* pricing */
 
-.pricingTable {
+.flexDiv {
+    display: flex;
+    flex-direction: row;
     position: absolute;
-    top: 670px;
+    top: 113%;
+    gap: 1rem;
+    left: 0;
+    background-color: #e8e8ea;
+    text-align: center;
+    width: 100%;
+    height: 90%;
+    justify-content: space-between;
 }
 
-.tableHead {
+.divHead {
     background-color: #6f6c89;
+    border-radius: 8px;
 }
 
-.tableColor {
+
+.colorBody {
     background-color: #f5f0f0;
+    list-style: none;
+    padding: 20px;
+}
+
+
+.size    {
+    padding: 25px;
+    font-size: larger;
+    margin: 2px;
+}    
+
+.secondInfo {
+    padding: 0px;
+    font-size: small;
+}
+
+.purchase {
+list-style: none;
+background-color: white;
+padding: 20px;
+}
+
+.miniOne {
+    margin-left: 55px;
+    margin-top: 20px;
+}
+
+.miniTwo {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.miniThree {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.miniFour {
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+
+.bottomSection {
+    position: absolute;
+    display: flex;
+    top: 203%;
+    background-color: #262336;
+    left: 0px;
+    gap: 1rem;
 }
