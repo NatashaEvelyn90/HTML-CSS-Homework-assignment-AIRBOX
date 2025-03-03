@@ -20,7 +20,7 @@
 }
 
 .airLogo {
-    background-color: #6f6c88;
+    background: linear-gradient(#a8a1c5, #6c6882);
     color: #e5e5e4;
     margin-left: 30px;
     margin-top: 10px;
@@ -104,22 +104,31 @@
 .headerOne {
     margin: 0;
     margin-top: 30px;
+    background: linear-gradient(180deg, #bdbcc5, #6c6882);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .headerTwo {
     margin: 0;
     margin-top: 0;
+    background: linear-gradient(180deg, #bdbcc5, #6c6882);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .headerInfo p {
     margin-left: 30%;
     width: 510px;
+    color: #68647d;
 }
 
 .mainOne {
     color: white;
-    background-color: grey;
+    background: linear-gradient(#a8a1c5, #6c6882) ;
     margin-bottom: 40px;
+    padding: 12px;
+    border-radius: 8px;
 }
 
 /* end Customer Support */
@@ -146,7 +155,7 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: #808080;
+    background: linear-gradient(180deg, #808080, #525668);
     margin-top: 4px;
     margin-left: 38%;
 }
@@ -159,7 +168,7 @@
 
 .optionOne {
     margin: 0;
-    color: #68647d;
+    color: #e3e2e5;
 }
 
 .optionTwo {
@@ -174,7 +183,7 @@ margin-left: 21px;
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: #808080;
+    background: linear-gradient(180deg, #808080, #525668);
     margin-top: 4px;
     margin-left: 36%;
 }
@@ -185,7 +194,7 @@ margin-left: 21px;
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: #808080;
+    background: linear-gradient(180deg, #808080, #525668);
     margin-top: 4px;
     margin-left: 37%;
 }
@@ -196,7 +205,7 @@ margin-left: 21px;
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: #808080;
+    background: linear-gradient(180deg, #808080, #525668);
     margin-top: 4px;
     margin-left: 35%;
 }
@@ -229,24 +238,37 @@ margin-left: 21px;
     background-color: #f5f0f0;
     list-style: none;
     padding: 20px;
+    color: #b3b3b3;
 }
 
 
-.size    {
+.sizeOne    {
     padding: 25px;
     font-size: larger;
     margin: 2px;
-}    
+    background: linear-gradient(180deg, #d9d8d8, #6c6882);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sizeTwo    {
+    padding: 25px;
+    font-size: larger;
+    margin: 2px;
+    color: white;
+}
 
 .secondInfo {
     padding: 0px;
     font-size: small;
+    margin-top: 2px;
 }
 
 .purchase {
 list-style: none;
 background-color: white;
 padding: 20px;
+color: #b3b3b3;
 }
 
 .miniOne {
@@ -270,6 +292,17 @@ padding: 20px;
     margin-top: 20px;
 }
 
+.buttonPurchase {
+    color: white;
+    background: linear-gradient(180deg, #f18b55, #e65e32) ;
+    border: none;
+    padding: 3px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 6px;
+}
+
+
 
 .bottomSection {
     position: absolute;
@@ -278,4 +311,204 @@ padding: 20px;
     background-color: #262336;
     left: 0px;
     gap: 1rem;
+}
+
+.solutionService {
+    color: white;
+}
+
+.solutionService::marker {
+    color: orange;
+}
+
+h4 {
+    font-size: larger;
+    text-align: center;
+    background: linear-gradient(180deg, #bdbcc5, #6c6882);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bottomPara {
+    color: #bebcc7;
+}
+
+.hostService h4{
+   width: 140px; 
+   margin-left: 50px;
+}
+
+.hostService li {
+    margin-left: 50px;
+}
+
+.hostService p {
+    margin-left: 54px;
+}
+
+.hostService button {
+    margin-left: 54px;
+}
+
+
+
+
+.serverSolution h4 {
+    width: 140px;
+    margin-left: 120px;
+}    
+
+.serverSolution li {
+    margin-left: 108px;
+}
+
+.serverSolution p {
+    margin-left: 107px;
+}
+
+.serverSolution button {
+    margin-left: 104px;
+}
+
+
+
+.emailSolution h4 {
+    width: 140px;
+    margin-left: 90px;
+}
+
+.emailSolution li {
+    margin-left: 95px;
+}
+
+.emailSolution p {
+    margin-left: 77px;
+}
+
+.emailSolution button {
+    margin-left: 75px;
+}
+
+
+
+
+.moreProduct h4 {
+    width: 125px;
+    margin-left: 35px ;
+}
+
+.moreProduct li {
+    margin-left: 34px;
+}
+
+.moreProduct p {
+    margin-left: 34px ;
+}
+
+.moreProduct button {
+    margin-left: 33px;
+    margin-bottom: 57px;
+}
+
+
+
+.endBrand {
+    position: absolute;
+    left: 0px;
+    top: 255%;
+    display: flex;
+    background-image: url("../media/Screenshot\ 2025-03-03\ 150918.png");
+    background-repeat: no-repeat;
+    width: 1256.4px;
+    height: 124px;
+    background-size: contain;
+}
+
+.footer {
+    position: absolute;
+    top: 277%;
+    background-color: #1a1921;
+    width: 100%;
+    left: 0;
+    display: flex;
+    padding-bottom: 25px;
+}
+
+
+.flexNavFoot {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.airLogoTwo {
+    background: linear-gradient(#a8a1c5, #6c6882);
+    color: #e5e5e4;
+    margin-left: 30px;
+    padding: 4px;
+    border-radius: 8px;
+    font-size: xx-large;
+    font-weight:bolder;
+    text-align: center;
+}
+
+.airTextTwo {
+    color: #cfced4;
+    font-size: small;
+    margin-left: 18px;
+    margin-top: 8px;
+}
+
+.airThree {
+    color: #9996a6;
+    margin: 0px;
+    width: 130px;
+    font-size: small;
+}
+
+
+.footerInfo {
+    color: #444153;
+    margin-top: 35px;
+    font-size: small;
+}
+
+
+.circleHold {
+    display: flex;
+    position: relative;
+    left: 60%;
+    margin-top: 40px;
+}
+
+
+.imgOne {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:#2a273a ;
+}
+
+.imgTwo {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:#2a273a ;
+    margin-left: 3px;
+}
+
+.imgThree {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:#2a273a ;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.imgFour {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #646180;
 }
