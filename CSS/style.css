@@ -1,3 +1,5 @@
+
+
 /* Header begins */
 
 .wholeNav {
@@ -129,12 +131,16 @@
     margin-bottom: 40px;
     padding: 12px;
     border-radius: 8px;
+    &:hover {
+        background: linear-gradient(180deg, #da5a1d, #e65e32);
+        color: black;
+    }
 }
 
 /* end Customer Support */
 
 
-
+/* begin options section */
 .options {
     background-color: #f29b66;
     position: absolute;
@@ -158,6 +164,11 @@
     background: linear-gradient(180deg, #808080, #525668);
     margin-top: 4px;
     margin-left: 38%;
+}
+
+.gear {
+    width: 66px;
+    margin-top: 15px
 }
 
 .title {
@@ -188,6 +199,10 @@ margin-left: 21px;
     margin-left: 36%;
 }
 
+.domainLogo {
+    width: 50px;
+    margin-top: 14px;
+}
 
 /* FTP Service section */
 .circleThree {
@@ -199,6 +214,10 @@ margin-left: 21px;
     margin-left: 37%;
 }
 
+.cloudUpload {
+    width: 48px;
+    margin-top: 15px;
+}
 
 /* Direct Section  */
 .circleFour {
@@ -210,9 +229,15 @@ margin-left: 21px;
     margin-left: 35%;
 }
 
+.phoneIcon {
+    width: 50px;
+    margin-top: 15px;
+}
+
+/* end options section */
 
 
-/* pricing */
+/* begin FlexDiv Section */
 
 .flexDiv {
     display: flex;
@@ -241,6 +266,23 @@ margin-left: 21px;
     color: #b3b3b3;
 }
 
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid #6f6c89;
+    margin-top: -7px;
+    margin-left: 55px;
+    position: absolute;
+}
+
+.orangeMO {
+    background: linear-gradient(180deg, #eca777, #da5a1d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: small;
+}
 
 .sizeOne    {
     padding: 25px;
@@ -261,7 +303,7 @@ margin-left: 21px;
 .secondInfo {
     padding: 0px;
     font-size: small;
-    margin-top: 2px;
+    margin-top: 5px;
 }
 
 .purchase {
@@ -300,9 +342,15 @@ color: #b3b3b3;
     padding-left: 18px;
     padding-right: 18px;
     border-radius: 6px;
+    &:hover {
+        background: linear-gradient(180deg, #444153, #1a1921);
+        color: wheat;
+    }
 }
+/* end FlexDiv section */
 
 
+/* begin Bottom section */
 
 .bottomSection {
     position: absolute;
@@ -333,6 +381,8 @@ h4 {
     color: #bebcc7;
 }
 
+
+/* Host Service section */
 .hostService h4{
    width: 140px; 
    margin-left: 50px;
@@ -352,7 +402,7 @@ h4 {
 
 
 
-
+/* Server Solution Section */
 .serverSolution h4 {
     width: 140px;
     margin-left: 120px;
@@ -371,7 +421,7 @@ h4 {
 }
 
 
-
+/* Email Solution Section */
 .emailSolution h4 {
     width: 140px;
     margin-left: 90px;
@@ -391,7 +441,7 @@ h4 {
 
 
 
-
+/* More Product Section */
 .moreProduct h4 {
     width: 125px;
     margin-left: 35px ;
@@ -410,8 +460,6 @@ h4 {
     margin-bottom: 57px;
 }
 
-
-
 .endBrand {
     position: absolute;
     left: 0px;
@@ -423,7 +471,10 @@ h4 {
     height: 124px;
     background-size: contain;
 }
+/* End Bottom Section */
 
+
+/* Begin Footer sectino */
 .footer {
     position: absolute;
     top: 277%;
@@ -453,14 +504,19 @@ h4 {
 }
 
 .airTextTwo {
-    color: #cfced4;
+    color: #444153;
     font-size: small;
     margin-left: 18px;
     margin-top: 8px;
 }
 
+.boxColor {
+    color: #bebcc7;
+    font-weight: normal;
+}
+
 .airThree {
-    color: #9996a6;
+    color: #444153;
     margin: 0px;
     width: 130px;
     font-size: small;
@@ -512,3 +568,29 @@ h4 {
     border-radius: 50%;
     background-color: #646180;
 }
+
+.google {
+    width: 10px;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+.wifi {
+    width: 10px;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.tumblr {
+    width: 10px;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.facebook {
+    width: 10px;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+/* End Footer Section */
